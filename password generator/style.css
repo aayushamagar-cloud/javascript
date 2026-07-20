@@ -1,0 +1,67 @@
+body {
+  background: rgb(103, 187, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box {
+  background: white;
+  width: 300px;
+  padding: 30px 25px;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgb(100, 100, 100);
+}
+
+.enter {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.enter input {
+  border-color: rgb(103, 187, 247);
+  border-radius: 10px 0 0 10px;
+}
+.enter .copy {
+  height: 30px;
+  background: rgb(103, 187, 247);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.generate {
+  height: 30px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(103, 187, 247);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.numbers input {
+  width: 100vh;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgb(103, 187, 247);
+  text-align: center;
+}
+
+.enter .copy:hover {
+  background-color: rgb(71, 173, 245);
+}
+
+.generate:hover {
+  background-color: rgb(71, 173, 245);
+}
